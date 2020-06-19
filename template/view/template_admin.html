@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>{{.title}}</title>
+</head>
+<body>
+<!-- include header -->
+{{template "layouts/header" .}}
+<!-- include sidebar -->
+{{template "layouts/sidebar" .}}
+<!-- include content -->
+{{template "content" .}}
+<!-- include footer -->
+{{template "layouts/footer" .}}
+</body>
+</html>
